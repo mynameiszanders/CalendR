@@ -3,7 +3,7 @@
 namespace CalendR\Test\Event\Collection;
 
 use CalendR\Event\Collection;
-use CalendR\Event\Event;
+use CalendR\Event\Basic as Event;
 use CalendR\Period;
 
 class BasicTest extends \PHPUnit_Framework_TestCase
