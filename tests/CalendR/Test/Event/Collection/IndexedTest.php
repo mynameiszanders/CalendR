@@ -3,7 +3,7 @@
 namespace CalendR\Test\Event\Collection;
 
 use CalendR\Event\Collection,
-    CalendR\Event\Event,
+    CalendR\Event\Basic as Event,
     CalendR\Period;
 
 class IndexedTest extends \PHPUnit_Framework_TestCase

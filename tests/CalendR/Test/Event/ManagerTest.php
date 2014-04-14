@@ -2,7 +2,7 @@
 namespace CalendR\Test\Event;
 
 use CalendR\Event\Manager;
-use CalendR\Event\Event;
+use CalendR\Event\Basic as Event;
 use CalendR\Period\Day;
 use CalendR\Period\Month;
 use CalendR\Event\Provider\Basic;
