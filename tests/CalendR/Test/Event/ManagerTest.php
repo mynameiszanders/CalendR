@@ -75,6 +75,13 @@ class ManagerTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    public function testProviderCount()
+    {
+        $this->assertSame(2, count($this->object));
+        $manager = new Manager;
+        $this->assertSame(0, count($manager));
+    }
+
     /**
      * @expectedException \CalendR\Event\Exception\NoProviderFound
      */
