@@ -20,7 +20,7 @@ use CalendR\Period\PeriodInterface,
  *
  * @author Yohan Giarelli <yohan@giarel.li>
  */
-class Manager
+class Manager implements \Countable
 {
     /**
      * @var ProviderInterface
@@ -119,5 +119,13 @@ class Manager
     public function getProviders()
     {
         return $this->providers;
+    }
+
+    /**
+     * @return integer
+     */
+    public function count()
+    {
+        return count($this->providers);
     }
 }
