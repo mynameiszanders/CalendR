@@ -2,7 +2,7 @@
 
 namespace CalendR\Test\Extension\Doctrine2;
 
-use CalendR\Event\Event;
+use CalendR\Event\Basic as Event;
 use CalendR\Test\Stubs\EventRepository;
 
 class EventRepositoryTest extends \PHPUnit_Framework_TestCase
