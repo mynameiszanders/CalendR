@@ -18,7 +18,7 @@ namespace CalendR\Event;
  *
  * @author Yohan Giarelli <yohan@giarel.li>
  */
-class Event extends AbstractEvent
+class Basic extends AbstractEvent
 {
     /**
      * @var \DateTime

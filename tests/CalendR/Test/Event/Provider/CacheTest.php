@@ -2,7 +2,7 @@
 
 namespace CalendR\Test\Event\Provider;
 
-use CalendR\Event\Event;
+use CalendR\Event\Basic as Event;
 use CalendR\Event\Provider\Cache;
 
 /**

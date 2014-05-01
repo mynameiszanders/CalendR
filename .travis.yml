@@ -6,6 +6,8 @@ php:
     - 5.3
     - 5.4
     - 5.5
+    - hhvm
 before_script:
+    - composer self-update
     - composer --prefer-source --dev install
 script: ./vendor/bin/phpunit --coverage-text
